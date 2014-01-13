@@ -8,6 +8,11 @@ namespace IHI.Server.Plugins.ClassicFigures
 {
     public class ClassicFigures : Plugin
     {
+        public override string Id
+        {
+            get { return "cecer:classicfigures"; }
+        }
+
         public override string Name
         {
             get
